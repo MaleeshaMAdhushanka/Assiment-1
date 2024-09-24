@@ -22,20 +22,24 @@ body{
 
 }
 .circle-1{
-  width: 300px;
-  height: 300px;
-  border: 9px solid red;
-  border-radius: 50%;
-  box-sizing: border-box;
-
+    width: 300px;
+    height: 300px;
+    border: solid 11px red;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
 
 }
 
 
 .circle-2{
 
-   width: 282px;
-   height: 282px;
+   width: 283px;
+   height: 283px;
    border-radius: 50%;
    position: absolute;
    left: 50%;
